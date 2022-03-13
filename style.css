@@ -1,3 +1,40 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 340px;
+    margin-right: 340px;
+}
 h1 {
+    font-size: x-large;
     color:crimson
 }
+h2 {
+    font-size: medium;
+}
+h3 {
+    font-size: smaller;
+    background-color: yellow;
+}
+div {
+    font-size: small;
+}
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: crimson;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
