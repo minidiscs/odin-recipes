@@ -2,8 +2,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 h1 {
     font-size: x-large;
@@ -16,13 +16,9 @@ h3 {
     font-size: smaller;
     background-color: yellow;
 }
-div {
-    font-size: small;
-}
 
 li {
   list-style: none;
-  padding: 20px;
 }
 
 img {
@@ -53,4 +49,17 @@ a:link {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    padding: 0px 24px 0px 24px;
+  }
+
+  .body {
+    padding: 0px 24px 0px 24px;
   }
