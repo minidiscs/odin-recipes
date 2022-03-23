@@ -17,12 +17,16 @@ h3 {
     background-color: yellow;
 }
 
-li {
+.cards li {
   list-style: none;
 }
 
-img {
+.cards img {
   width: 250px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* unvisited link */
@@ -30,26 +34,22 @@ a:link {
     color: black;
   }
   
-  /* visited link */
-  a:visited {
-    color: green;
-  }
-  
   /* mouse over link */
   a:hover {
     color: crimson;
   }
   
-  /* selected link */
-  a:active {
-    color: blue;
-  }
-
   .cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 18px;
+  }
+
+  .recipe {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
   }
 
   .title-bar {
@@ -60,6 +60,7 @@ a:link {
     padding: 0px 24px 0px 24px;
   }
 
-  .body {
+  .body,
+  .recipe {
     padding: 0px 24px 0px 24px;
   }

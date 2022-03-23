@@ -2,8 +2,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 h1 {
     font-size: x-large;
@@ -38,4 +38,22 @@ a:link {
   /* selected link */
   a:active {
     color: blue;
+  }
+
+  .title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    padding: 0px 24px 0px 24px;
+  }
+
+  .body {
+    padding: 0px 24px 0px 24px;
+  }
+
+  .recipe {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
   }
