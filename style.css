@@ -1,9 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 30px 30px 30px 30px;
 }
 h1 {
     font-size: x-large;
