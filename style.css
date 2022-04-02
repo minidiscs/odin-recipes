@@ -51,6 +51,10 @@ a:link {
     max-width: 500px;
   }
 
+  .recipe img {
+    height: auto;
+  }
+
   .title-bar {
     display: flex;
     justify-content: space-between;
