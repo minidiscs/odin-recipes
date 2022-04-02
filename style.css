@@ -14,8 +14,10 @@ h3 {
     background-color: yellow;
 }
 
-.cards li {
+.cards li,
+ul {
   list-style: none;
+  padding: 0px;
 }
 
 .cards img {
@@ -46,18 +48,18 @@ a:link {
   .recipe {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    max-width: 500px;
   }
 
   .title-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightgoldenrodyellow;
-    padding: 0px 24px 0px 24px;
+    background-color: rgb(239, 239, 239);
+    padding: 0px 20px 0px 20px;
   }
 
   .body,
   .recipe {
-    padding: 0px 24px 0px 24px;
+    padding: 0px 20px 0px 20px;
   }
