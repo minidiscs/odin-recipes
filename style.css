@@ -32,6 +32,10 @@ a {
 a:link {
     color: black;
   }
+
+  a:visited {
+    color: black;
+  }
   
   /* mouse over link */
   a:hover {
@@ -53,6 +57,7 @@ a:link {
 
   .recipe img {
     height: auto;
+    max-width: 100%;
   }
 
   .title-bar {
